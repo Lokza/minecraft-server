@@ -1,0 +1,10 @@
+version: '3'
+services:
+  minecraft-server:
+    build: .
+    ports:
+      - "50555:50555"
+    volumes:
+      - /home/xricq/docker/minecraft-server:/minecraft-server
+volumes:
+  data:

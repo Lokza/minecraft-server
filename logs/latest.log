@@ -1,119 +1,49 @@
-[20mars2023 12:25:29.832] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.2.7, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, --nogui]
-[20mars2023 12:25:29.842] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.6 by Oracle Corporation; OS Linux arch amd64 version 5.10.0-21-amd64
-[20mars2023 12:25:30.557] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/xricq/minecraft-server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
-[20mars2023 12:25:31.052] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/xricq/minecraft-server/libraries/net/minecraftforge/fmlcore/1.19.2-43.2.7/fmlcore-1.19.2-43.2.7.jar is missing mods.toml file
-[20mars2023 12:25:31.055] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/xricq/minecraft-server/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.2.7/javafmllanguage-1.19.2-43.2.7.jar is missing mods.toml file
-[20mars2023 12:25:31.057] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/xricq/minecraft-server/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.2.7/lowcodelanguage-1.19.2-43.2.7.jar is missing mods.toml file
-[20mars2023 12:25:31.059] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/xricq/minecraft-server/libraries/net/minecraftforge/mclanguage/1.19.2-43.2.7/mclanguage-1.19.2-43.2.7.jar is missing mods.toml file
-[20mars2023 12:25:31.335] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
-[20mars2023 12:25:33.700] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[20mars2023 12:25:33.764] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [--nogui]
-[20mars2023 12:25:39.180] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
-[20mars2023 12:25:42.519] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.2.7, for MC 1.19.2 with MCP 20220805.130853
-[20mars2023 12:25:42.520] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.2.7 Initialized
-[20mars2023 12:25:47.994] [Immersive Engineering Contributors Thread/INFO] [immersiveengineering/]: Attempting to download special revolvers from GitHub
-[20mars2023 12:25:48.023] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Version 10.3.8 initializing...
-[20mars2023 12:25:48.195] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
-[20mars2023 12:25:48.196] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Mod loaded.
-[20mars2023 12:25:48.268] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[20mars2023 12:25:48.268] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[20mars2023 12:25:48.268] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-[20mars2023 12:25:48.268] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-[20mars2023 12:25:48.268] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-[20mars2023 12:25:48.269] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[20mars2023 12:25:48.269] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[20mars2023 12:25:48.307] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [immersiveengineering] Starting version check at https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.19/changelog.json
-[20mars2023 12:25:48.488] [main/INFO] [journeymap/]: Initializing Packet Registries
-[20mars2023 12:25:48.526] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:loot_table_alias
-[20mars2023 12:25:48.556] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:data_handler_type
-[20mars2023 12:25:48.556] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:dynamic_spawner
-[20mars2023 12:25:48.557] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:jigsaw_type
-[20mars2023 12:25:48.564] [main/INFO] [terrablender/]: Registered region ars_nouveau:overworld to index 4 for type OVERWORLD
-[20mars2023 12:25:48.603] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [immersiveengineering] Found status: BETA Current: 1.19.2-9.2.0-162 Target: null
-[20mars2023 12:25:48.603] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[20mars2023 12:25:48.606] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at blusunrize.immersiveengineering.common.util.compat.jade.IEWailaPlugin
-[20mars2023 12:25:48.624] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[20mars2023 12:25:48.639] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[20mars2023 12:25:48.648] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[20mars2023 12:25:48.650] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at mekanism.common.integration.lookingat.jade.MekanismJadePlugin
-[20mars2023 12:25:48.652] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at twilightforest.compat.jade.JadeCompat
-[20mars2023 12:25:48.653] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.hollingsworth.arsnouveau.client.waila.WailaArsNouveauPlugin
-[20mars2023 12:25:48.654] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.ForgeJadeWaystonesPlugin
-[20mars2023 12:25:48.936] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 43.2.7 Target: null
-[20mars2023 12:25:48.936] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cofh_core] Starting version check at https://raw.github.com/cofh/version/main/cofh_core/update.json
-[20mars2023 12:25:49.166] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cofh_core] Found status: AHEAD Current: 10.2.1 Target: null
-[20mars2023 12:25:49.167] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal] Starting version check at https://raw.github.com/cofh/version/master/thermal/update.json
-[20mars2023 12:25:49.511] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal] Found status: AHEAD Current: 10.2.0.5 Target: null
-[20mars2023 12:25:49.511] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_foundation] Starting version check at https://raw.github.com/cofh/version/master/thermal/update_foundation.json
-[20mars2023 12:25:49.854] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_foundation] Found status: AHEAD Current: 10.2.0.47 Target: null
-[20mars2023 12:25:49.854] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
-[20mars2023 12:25:50.069] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: BETA Current: 4.2.1518 Target: null
-[20mars2023 12:25:50.069] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[20mars2023 12:25:50.387] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.9.4 Target: null
-[20mars2023 12:25:53.008] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[20mars2023 12:25:56.145] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/home/xricq/minecraft-server/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23139!/assets/.mcassetsroot' uses unexpected schema
-[20mars2023 12:25:56.145] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/home/xricq/minecraft-server/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23139!/data/.mcassetsroot' uses unexpected schema
-[20mars2023 12:25:59.889] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
-[20mars2023 12:25:59.904] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
-[20mars2023 12:25:59.984] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
-[20mars2023 12:26:00.013] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
-[20mars2023 12:26:00.077] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
-[20mars2023 12:26:00.129] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
-[20mars2023 12:26:00.132] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
-[20mars2023 12:26:00.143] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
-[20mars2023 12:26:00.150] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 92 recipes
-[20mars2023 12:26:00.815] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3659 advancements
-[20mars2023 12:26:00.826] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
-[20mars2023 12:26:03.758] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
-[20mars2023 12:26:03.759] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[20mars2023 12:26:03.759] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[20mars2023 12:26:03.759] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[20mars2023 12:26:03.853] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:50555
-[20mars2023 12:26:03.886] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[20mars2023 12:26:04.151] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[20mars2023 12:26:04.151] [Thread-0/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[20mars2023 12:26:04.153] [Thread-0/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[20mars2023 12:26:04.228] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[20mars2023 12:26:04.627] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[20mars2023 12:26:04.627] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[20mars2023 12:26:04.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[20mars2023 12:26:10.010] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[20mars2023 12:26:10.064] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[20mars2023 12:26:10.076] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[20mars2023 12:26:10.077] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[20mars2023 12:26:10.135] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[20mars2023 12:26:10.166] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[20mars2023 12:26:10.241] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[20mars2023 12:26:10.258] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[20mars2023 12:26:10.269] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[20mars2023 12:26:10.282] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[20mars2023 12:26:10.292] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[20mars2023 12:26:10.504] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[20mars2023 12:26:10.974] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[20mars2023 12:26:11.473] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 37%
-[20mars2023 12:26:12.392] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 7420 ms
-[20mars2023 12:26:12.392] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (8.386s)! For help, type "help"
-[20mars2023 12:26:12.436] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[20mars2023 12:26:12.485] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
-[20mars2023 12:26:12.609] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 free_runners_armored, missing knowledge for {1 free_runners=1.0}
-[20mars2023 12:26:12.610] [Server thread/INFO] [immersiveengineering/]: Finished recipe profiler for Arc Recycling, took 109 milliseconds
-[20mars2023 12:34:28.773] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Jubita is 9b74ccd7-0982-4b63-927a-cbbfa87b25e8
-[20mars2023 12:34:34.885] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@6d122440
-[20mars2023 12:34:34.916] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Jubita[/109.219.69.89:55565] logged in with entity id 49 at (3538.103889388164, 62.07326432466507, -978.0514762120487)
-[20mars2023 12:34:34.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jubita joined the game
-[20mars2023 12:34:35.300] [Netty Epoll Server IO #2/INFO] [immersiveengineering/]: Recipes for potions: ars_nouveau:shielding_potion_strong, ars_nouveau:mana_regen_potion, minecraft:strong_leaping, minecraft:long_water_breathing, ars_nouveau:recovery_potion_strong, minecraft:strong_turtle_master, minecraft:strong_poison, ars_nouveau:mana_regen_potion_strong, minecraft:slowness, minecraft:long_slow_falling, minecraft:long_poison, ars_nouveau:spell_damage_potion_long, minecraft:long_turtle_master, ars_nouveau:mana_regen_potion_long, minecraft:water_breathing, minecraft:harming, ars_nouveau:blasting_potion_long, ars_nouveau:spell_damage_potion, minecraft:long_leaping, minecraft:strong_strength, minecraft:strong_healing, minecraft:strong_slowness, ars_nouveau:freezing_potion_long, ars_nouveau:shielding_potion_long, ars_nouveau:spell_damage_potion_strong, minecraft:long_fire_resistance, minecraft:healing, minecraft:long_invisibility, minecraft:poison, minecraft:long_swiftness, ars_nouveau:recovery_potion_long, minecraft:long_slowness, minecraft:swiftness, minecraft:long_weakness, minecraft:leaping, ars_nouveau:shielding_potion, minecraft:weakness, ars_nouveau:freezing_potion, minecraft:long_strength, minecraft:water, minecraft:long_night_vision, minecraft:strong_harming, minecraft:strength, minecraft:slow_falling, ars_nouveau:blasting_potion_strong, minecraft:strong_swiftness, minecraft:turtle_master, minecraft:fire_resistance, ars_nouveau:recovery_potion, minecraft:regeneration, minecraft:long_regeneration, ars_nouveau:freezing_potion_strong, minecraft:night_vision, ars_nouveau:blasting_potion, minecraft:awkward, minecraft:strong_regeneration, minecraft:invisibility
-[20mars2023 12:34:36.686] [Server thread/INFO] [Jade/]: Syncing config to Jubita (9b74ccd7-0982-4b63-927a-cbbfa87b25e8)
-[20mars2023 12:47:38.785] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jubita lost connection: Disconnected
-[20mars2023 12:47:38.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jubita left the game
-[20mars2023 12:52:06.415] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Jubita is 9b74ccd7-0982-4b63-927a-cbbfa87b25e8
-[20mars2023 12:52:12.380] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@51a97e0a
-[20mars2023 12:52:12.394] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Jubita[/109.219.69.89:60537] logged in with entity id 3448 at (3896.7978981525903, 63.0, -737.9006016200209)
-[20mars2023 12:52:12.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jubita joined the game
-[20mars2023 12:52:12.416] [Server thread/INFO] [Jade/]: Syncing config to Jubita (9b74ccd7-0982-4b63-927a-cbbfa87b25e8)
-[20mars2023 12:55:08.421] [User Authenticator #3/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player MaitreKebabiste is 82c61b55-ae5c-490c-b9cc-6b96a0e35053
-[20mars2023 12:55:14.404] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@4e4f0905
-[20mars2023 12:55:14.419] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MaitreKebabiste[/92.88.46.223:64447] logged in with entity id 4007 at (822.2375000119209, 70.0, -6.588640005678322)
-[20mars2023 12:55:14.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MaitreKebabiste joined the game
-[20mars2023 12:55:14.434] [Server thread/INFO] [Jade/]: Syncing config to MaitreKebabiste (82c61b55-ae5c-490c-b9cc-6b96a0e35053)
-[20mars2023 12:57:00.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Jubita> x3895
-[20mars2023 12:57:05.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Jubita> y63
+[06Apr2023 09:06:52.925] [User Authenticator #275/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player lockza is 7706743b-5933-4e1c-96e8-3b3eafac3536
+[06Apr2023 09:06:59.210] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@6a6bfe10
+[06Apr2023 09:06:59.218] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: lockza[/192.168.1.254:49719] logged in with entity id 4150284 at (1671.699999988079, 90.0, 1327.1750214315657)
+[06Apr2023 09:06:59.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lockza joined the game
+[06Apr2023 09:06:59.231] [Server thread/INFO] [Jade/]: Syncing config to lockza (7706743b-5933-4e1c-96e8-3b3eafac3536)
+[06Apr2023 09:11:17.975] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: lockza lost connection: Disconnected
+[06Apr2023 09:11:17.976] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lockza left the game
+[06Apr2023 09:11:28.350] [User Authenticator #276/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player lockza is 7706743b-5933-4e1c-96e8-3b3eafac3536
+[06Apr2023 09:11:34.610] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@46522248
+[06Apr2023 09:11:34.618] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: lockza[/192.168.1.254:49788] logged in with entity id 4151717 at (1953.7303437613452, 71.0, 1198.617219879808)
+[06Apr2023 09:11:34.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lockza joined the game
+[06Apr2023 09:11:34.646] [Server thread/INFO] [Jade/]: Syncing config to lockza (7706743b-5933-4e1c-96e8-3b3eafac3536)
+[06Apr2023 09:12:06.673] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: lockza lost connection: Disconnected
+[06Apr2023 09:12:06.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lockza left the game
+[06Apr2023 09:12:16.914] [User Authenticator #277/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player lockza is 7706743b-5933-4e1c-96e8-3b3eafac3536
+[06Apr2023 09:12:23.210] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@49e7dae0
+[06Apr2023 09:12:23.218] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: lockza[/192.168.1.254:49804] logged in with entity id 4152053 at (1957.6947562870812, 71.0, 1197.951345360382)
+[06Apr2023 09:12:23.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lockza joined the game
+[06Apr2023 09:12:23.232] [Server thread/INFO] [Jade/]: Syncing config to lockza (7706743b-5933-4e1c-96e8-3b3eafac3536)
+[06Apr2023 09:24:38.591] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: lockza moved too quickly! 390.1140165066977,17.0,-708.8730402335002
+[06Apr2023 09:45:34.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lockza has made the advancement [Making Modifications]
+[06Apr2023 09:46:02.077] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: lockza lost connection: Disconnected
+[06Apr2023 09:46:02.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lockza left the game
+[06Apr2023 09:47:11.742] [User Authenticator #278/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player lockza is 7706743b-5933-4e1c-96e8-3b3eafac3536
+[06Apr2023 09:47:18.017] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@662ebc9d
+[06Apr2023 09:47:18.025] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: lockza[/192.168.1.254:50492] logged in with entity id 4160928 at (1953.7407453399567, 71.0, 1198.3508352297517)
+[06Apr2023 09:47:18.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lockza joined the game
+[06Apr2023 09:47:18.041] [Server thread/INFO] [Jade/]: Syncing config to lockza (7706743b-5933-4e1c-96e8-3b3eafac3536)
+[06Apr2023 09:47:50.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lockza was killed by radiation poisoning.
+[06Apr2023 09:48:17.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lockza was killed by radiation poisoning.
+[06Apr2023 09:54:41.473] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: lockza lost connection: Disconnected
+[06Apr2023 09:54:41.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lockza left the game
+[06Apr2023 11:04:27.705] [User Authenticator #279/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player lockza is 7706743b-5933-4e1c-96e8-3b3eafac3536
+[06Apr2023 11:04:33.965] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@58fba05f
+[06Apr2023 11:04:33.974] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: lockza[/192.168.1.254:64096] logged in with entity id 4162794 at (1962.60810941785, 71.0, 1195.5086991073035)
+[06Apr2023 11:04:33.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lockza joined the game
+[06Apr2023 11:04:33.991] [Server thread/INFO] [Jade/]: Syncing config to lockza (7706743b-5933-4e1c-96e8-3b3eafac3536)
+[06Apr2023 11:05:41.322] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: lockza lost connection: Disconnected
+[06Apr2023 11:05:41.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lockza left the game
+[06Apr2023 11:15:54.690] [User Authenticator #280/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player housspupi is 1de3cf53-fc78-4b99-a561-b3c202eb7865
+[06Apr2023 11:16:00.963] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@62d02d2a
+[06Apr2023 11:16:00.970] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: housspupi[/176.168.227.33:50860] logged in with entity id 4163246 at (2081.3475613837613, 28.0, 1307.699999988079)
+[06Apr2023 11:16:00.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: housspupi joined the game
+[06Apr2023 11:16:00.977] [Server thread/INFO] [Jade/]: Syncing config to housspupi (1de3cf53-fc78-4b99-a561-b3c202eb7865)
+[06Apr2023 11:16:01.448] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2858807, l='ServerLevel[world]', x=2060.50, y=63.00, z=1237.50, removed=DISCARDED]
+[06Apr2023 11:16:01.448] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/3973991, l='ServerLevel[world]', x=2060.50, y=62.00, z=1237.50, removed=DISCARDED]
+[06Apr2023 11:16:01.450] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/4075560, l='ServerLevel[world]', x=2066.50, y=62.00, z=1246.50, removed=DISCARDED]
+[06Apr2023 11:19:46.772] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: housspupi lost connection: Disconnected
+[06Apr2023 11:19:46.772] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: housspupi left the game
